@@ -1,0 +1,40 @@
+.arrow_box {
+  position: relative;
+  background: #f8f8f8;
+}
+.arrow_box:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #f8f8f8;
+  border-width: 30px;
+  margin-left: -30px;
+}
+
+.card {
+  margin-bottom: 2.3em;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: initial;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.with_shadow {
+  box-shadow: 3px 3px 42px -5px rgba(0, 170, 228, 0.33);
+}
+
+.card_correct {
+  background-color: #2cd784;
+}
+
+.card_incorrect {
+  background-color: #e34c5e;
+}

@@ -1,0 +1,196 @@
+.question-card-size {
+  flex: 0 0 50%;
+  min-width: 300px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.question-card {
+  position: relative;
+  box-shadow: -4px 6px 140px -33px rgba(101, 21, 221, 0.5);
+  background: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.user-guess{
+  color:#ff8a00;
+}
+
+.card-image {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  -webkit-pox-back: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.wrong-card-image {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  -webkit-pox-back: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.correct-card-image {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  -webkit-pox-back: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.card-image:before {
+  background-color: rgb(0, 0, 0);
+  background-image: url(../assets/question.jpg);
+  background-size: cover;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 200px;
+  content: '';
+  position: absolute;
+  filter: blur(1px) brightness(80%);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.wrong-card-image:before {
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://media.giphy.com/media/IPbS5R4fSUl5S/giphy.gif);
+  background-size: cover;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 200px;
+  content: '';
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.correct-card-image:before {
+  background-color: #ffffff;
+  background-image: url(https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif);
+  background-size: cover;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 200px;
+  content: '';
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-img-overlay {
+  z-index: 1;
+  color: rgba(255, 255, 255 0.9);
+}
+
+.question-num {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.card-question {
+  height: 100%;
+  font-size: 17px;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.card-input {
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.next-question-box {
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 15px;
+}
+
+.encourage {
+  text-align: center;
+  font-size: 17px;
+  color: #2e2e2e;
+}
+.your-answer {
+  text-align: center;
+  font-size: 17px;
+  color: #2e2e2e;
+  margin-bottom: 25px;
+}
+
+.question-number-text {
+  border: 0;
+  color: #000000;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+.question-text {
+  border: 0;
+  color: #000000;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.3;
+  margin: 0 0 40px;
+  padding: 0;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.question-input-field {
+  width: 100%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 20px;
+}
+
+.guess-button {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background: rgb(101, 21, 221);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.position-button {
+  margin-left: -20%;
+}

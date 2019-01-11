@@ -1,0 +1,49 @@
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+body {
+  color: #212529;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding-top: 90px;
+  background: #ffffff;
+  z-index: 0;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.layout {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  position: relative;
+  clear: both;
+  min-height: calc(100vh - 281px);
+  transition: padding 0.6s ease-in-out;
+  z-index: 0;
+}

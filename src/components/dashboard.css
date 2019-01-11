@@ -1,0 +1,126 @@
+.dashboard-layout {
+  padding-top: 0;
+  position: relative;
+  padding: 40px 0;
+  background-color: #ffffff;
+  transition: background 0.3s ease-in-out;
+}
+
+.dashboard-top {
+  position: relative;
+  z-index: 1;
+}
+.dashboard-banner {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  clear: both;
+}
+
+.welcome-message-prompt {
+  display: -webkit-box;
+  display: flex;
+  margin-top: 20px;
+  font-size: 17px;
+  padding-top: 30px;
+}
+
+.left-banner,
+.title-banner {
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  /* display: flex; */
+  -webkit-box-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.left-banner,
+.title-banner {
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  /* display: flex; */
+  -webkit-box-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.right-banner {
+  margin-top: -15px;
+  /* display: -webkit-box; */
+  /* display: flex; */
+}
+
+.dashboard-main {
+  position: relative;
+  max-width: 100%;
+  margin: 85px auto;
+  padding-left: 55px;
+  padding-right: 70px;
+  clear: both;
+}
+
+.dashboard-background {
+  height: 100px;
+  margin-top: -60px;
+  background-color: rgb(101, 21, 221);
+  -webkit-box-shadow: 0px 5px 5px -5pxrgb (101, 21, 221);
+  -moz-box-shadow: 0px 5px 5px -5px rgb(101, 21, 221);
+  box-shadow: 0px 5px 5px -5px rgb(101, 21, 221);
+}
+
+.dashboard-box {
+  margin-bottom: 40px;
+  padding: 35px;
+  background-color: #fcfcfc;
+  font-size: 15px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -12px 16px 31px -16px rgba(101, 21, 221, 0.33);
+}
+
+.title {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-size: 33px important!;
+  color: #4671fb;
+}
+
+.level {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.about-cards {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/dashboard-background.png);
+  background-repeat: repeat;
+  background-position: center 137px;
+  background-size: 400px 468px;
+  z-index: 0;
+}
