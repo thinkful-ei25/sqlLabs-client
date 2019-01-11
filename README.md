@@ -3,9 +3,9 @@
 user: **demo**<br/>
 pass: **demo123456**<br/>
 
-Welcome to SQL Learning Labs<br/><br/>
+[Welcome to SQL Learning Labs](http://www.sqllearninglabs.com/)
 
-Our Goal here is to help students of all levels master & improve their skills in SQL. 
+Our Goal here is to help students of all levels master & improve their skills in SQL.
 Future Plans of Updates:
 - Intermediate & Master Levels
 - Tutorial Bash Commands
