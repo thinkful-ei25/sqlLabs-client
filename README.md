@@ -43,9 +43,9 @@ Future Plans of Updates:
 
 **Github Repos:** <br/>
 
-front-end: https://github.com/thinkful-ei25/SQL-Labs-Mary-Brady-client<br/>
+[front-end](https://github.com/thinkful-ei25/sqlLabs-client)
 
-back-end: https://github.com/thinkful-ei25/sql-labs-mary-brady-server<br/>
+[back-end](https://github.com/thinkful-ei25/sql-labs-mary-brady-server)
 
 ## **`Navigating Repos`**<br/>
 **Front-end example routes** <br/>
