@@ -1,4 +1,4 @@
-## ⚗️SQL Learning Labs
+# ⚗️SQL Learning Labs
 **DEMO LOGIN CREDENTIALS:** <br/>
 user: **demo**<br/>
 pass: **demo123456**<br/>
@@ -10,14 +10,14 @@ Future Plans of Updates:
 - Intermediate & Master Levels
 - Tutorial Bash Commands
 
-### **`Contents`**
+## **`Contents`**
 - [Tech Stack](#tech-stack)
 - [Links](#links)
 - [Navigating Repos](#navigating-repos)
 - [Concept Wireframing](#concept)
 - [Screenshots](#screenshots)
 
-### **`Tech Stack`**
+## **`Tech Stack`**
 #### Front End with *React.js* and *Redux*
 
 
@@ -37,8 +37,8 @@ Future Plans of Updates:
 **Node.js** - Javascript runtime environment<br/>
 **Mongoose/MongoDB** - Data is being stored in a MongoDB environment after being cleaned and prepped via Mongoose schemas/virtuals/models.<br/>
 
-### **`LINKS`** 
-[Client-Side](https://sql-labs.herokuapp.com/)<br/>
+## **`LINKS`** 
+[Client-Side](http://www.sqllearninglabs.com)<br/>
 [Server-Side](https://sql-labs-server.herokuapp.com/)<br/>
 
 **Github Repos:** <br/>
@@ -47,7 +47,7 @@ front-end: https://github.com/thinkful-ei25/SQL-Labs-Mary-Brady-client<br/>
 
 back-end: https://github.com/thinkful-ei25/sql-labs-mary-brady-server<br/>
 
-### **`Navigating Repos`**<br/>
+## **`Navigating Repos`**<br/>
 **Front-end example routes** <br/>
 Root-component: src/components/app.js<br/>
 Landing-Page: src/components/landing-page.js<br/>
@@ -73,10 +73,9 @@ All Flashcard related routes: /routes/question.js<br/>
 - Retrieval of User's answers from corresponding flashcard questions: '/backofcard'<br/>
 
 
-### **`Concept Wireframing`**
+## **`Concept Wireframing`**
 
-LINK: [original-wireframe concept]()
+LINK: [original-wireframe concept](./src/assets/sqlLearningLab_spacedRep_wireframes.pdf)
 
-### **`Screenshots`**
-
-
+## **`Screenshots`**
+![Dashboard](./src/assets/landing-main-page.png)
