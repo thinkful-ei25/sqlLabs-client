@@ -73,7 +73,7 @@ export function LandingPage(props) {
         <div className="footer-container">
           <div className="footer-row">
             <div className="footer-copyright">
-              SQL Learning Labs Was Created by Mary and Brady
+              SQL Learning Labs Was Created by <a href="https://www.linkedin.com/in/mary-conley-desu/">Mary</a> and <a href="https://www.linkedin.com/in/bradycfox/">Brady</a>
             </div>
           </div>
         </div>
