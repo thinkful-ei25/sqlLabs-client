@@ -19,10 +19,8 @@
   color: rgb(101, 21, 221);
   font-size: 20px;
   letter-spacing: 1px;
-  padding: 10px 20px;
-  margin-left: 40%;
+  margin-left: 10%;
 
-  text-align: center;
 }
 
 .input-field {
@@ -49,8 +47,7 @@ form.sign-up {
 }
 
 .form-button {
-  /* margin-left: 10%; */
-  width: 35%;
+  margin-left: 10%;
   cursor: pointer;
   border-radius: 4px;
   color: #fff;
@@ -60,9 +57,6 @@ form.sign-up {
   padding-right: 50px;
   padding-bottom: 10px;
   padding-top: 10px;
-  /* font-family: 'Ubuntu', sans-serif; */
-  margin-left: 26%;
-  margin-right: 23%;
   font-size: 13px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
@@ -91,6 +85,8 @@ form.sign-up {
   font-size: 20px;
   color: #ff8a00;
   padding-top: 15px;
-  margin-top: 25px;
+  margin-top: 10px;
   padding-bottom: 30px;
+  text-align: left;
+  margin-left: 10%;
 }

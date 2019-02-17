@@ -23,7 +23,6 @@
   display: -webkit-box;
   display: flex;
   margin-top: 20px;
-  font-size: 17px;
   padding-top: 30px;
 }
 
@@ -32,29 +31,24 @@
   -webkit-box-flex: 1;
   flex: 1;
   display: -webkit-box;
-  /* display: flex; */
   -webkit-box-align: center;
   align-items: center;
   color: #ffffff;
   font-size: 32px;
 }
 
+@media (max-width: 500px) {
 .left-banner,
 .title-banner {
-  -webkit-box-flex: 1;
-  flex: 1;
-  display: -webkit-box;
-  /* display: flex; */
-  -webkit-box-align: center;
-  align-items: center;
-  color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
+  overflow: hidden;
+  padding-top: 5px;
 }
+  }
+
 
 .right-banner {
   margin-top: -15px;
-  /* display: -webkit-box; */
-  /* display: flex; */
 }
 
 .dashboard-main {

@@ -22,11 +22,6 @@ export class HeaderBar extends React.Component {
             LOGOUT
           </a>
         </div>
-        // <div className="button-position">
-        //   <button className="login-signup-button" onClick={() => this.logOut()}>
-        //     Log out
-        //   </button>
-        // </div>
       );
     } else {
       buttonMenu = (
